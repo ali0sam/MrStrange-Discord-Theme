@@ -1,5 +1,5 @@
 .theme-dark{
---background-primary: url('https://media.discordapp.net/attachments/622407005495099396/782353307409842256/crop.jpg?width=845&height=475');
+--background-primary: url('https://s17.picofile.com/file/8415816876/333.png');
 --background-secondary: #120038;
 --background-tertiary: #0d002e;
 
@@ -153,4 +153,73 @@
 .footer-3mqk7D.da-footer.hasSpoilers-1IRtQC.da-hasSpoilers {
     background:#0d002e;
 }
+/* stng panel */
+#app-mount .layer-3QrUeG.stop-animations:first-child{
+    opacity:1!important;
+    transform:unset!important;
+    will-change: unset!important;
+    pointer-events: none;
+}
+
+#app-mount .layer-3QrUeG.animating-rRxada:first-child{
+    opacity:unset !important;
+    transform: unset !important;
+    will-change: unset !important;
+}
+
+#app-mount .layer-3QrUeG[aria-label="GUILD_SETTINGS"]{
+    top:100px;
+    left:100px;
+    bottom:100px;
+    right:100px;
+    z-index:100;
+}
+
+#app-mount .layer-3QrUeG[aria-label="USER_SETTINGS"]{
+    top:100px;
+    left:100px;
+    bottom:100px;
+    right:100px;
+    z-index:100;
+}
+
+.standardSidebarView-3F1I7i .contentRegion-3nDuYy {
+    z-index: auto;
+}
+
+.standardSidebarView-3F1I7i .keybind-KpFkfr {
+    display: none;
+}
+  
+.standardSidebarView-3F1I7i .tools-3-3s-N {
+    position: static;
+}
+  
+.standardSidebarView-3F1I7i .closeButton-1tv5uR {
+    position: fixed;
+    cursor: default;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+    z-index: -1;
+    transition:.2s linear;
+}
+
+.standardSidebarView-3F1I7i .closeButton-1tv5uR:hover {
+    background-color: rgba(20,24,26,.4);
+}
+
+.standardSidebarView-3F1I7i .closeButton-1tv5uR svg {
+    display: none;
+}
+
+
+
+
+
+
+
 
